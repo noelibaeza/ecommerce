@@ -1,0 +1,36 @@
+### Post Productos, obtener todos los productos 
+
+POST http://localhost:3030/productos 
+Content-Type: application/json
+
+{
+    "titulo": "Foldsack mochila",
+    "precio": "5000",
+    "descripcion": "La mochila perfecta para el uso de todos los días, perfecto para llevar una laptop",
+    "categoria": "mochilas",
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+}
+
+### Get Producto, obtener producto por ID
+GET http://localhost:3030/productos/633cb91a639b90fd2347492f
+
+### Get Producto, obtener producto por nombre 
+GET http://localhost:3030/productos/nombre?n=Foldsackmochila
+
+GET http://localhost:3030/productos/633cb91a639b90fd2347492f
+
+### Delete Productos, eliminar producto por id
+DELETE http://localhost:3030/productos/633cb91a639b90fd2347492f
+
+### Actualizar Productos
+PUT http://localhost:3030/productos/633cb91a639b90fd2347492f
+Content-Type: application/json
+
+{
+    "titulo": "Foldsack mochila",
+    "precio": "6000",
+    "descripcion": "La mochila perfecta para el uso de todos los días, perfecto para llevar una laptop",
+    "categoria": "mochilas",
+    "imagen": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+}
+

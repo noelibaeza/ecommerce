@@ -1,0 +1,24 @@
+
+### Post Suscriptores, crear un suscriptor
+POST http://localhost3030/suscriptores
+Content-Type: application/json
+
+{
+    "email": "usuario1@gmail.com",
+}
+
+### Get Suscriptores, obtener todos los sucriptores
+GET http://localhost3030/suscriptores
+
+### Delete Suscriptores, elimina sucriptor por id
+http://localhost3030/sucripotores/id
+
+
+### Put suscriptores, actualizar datos de sucritor
+PUT http://localhost3030/suscriptores/id
+Content-Type: application/json
+
+{
+    "email": "usuario2@gmail.com" 
+}
+
