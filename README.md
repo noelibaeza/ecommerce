@@ -20,4 +20,3 @@ Los productos se puede obtener de manera conjunta, por id y por su nombre, a su 
 
 * Server de Railway
 * Base de datos con MongoDB Atlas
-
